@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://tdrive.elytra8.workers.dev/RMX1911EX_11_OTA_1530_all_zepXuiTwB8gV.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS-HeliosBakerTools-24-10-2020
+  ROM_URL: https://tdrive.elytra8.workers.dev/fRqvSxL66Nw65aPMr3L1S5msjw4SETNGHc8yO4M1nX5bgXphuw7SRiMjo40MqLLhavo3KU0IpXPeFk3XoDL6Pg==#.zip
+  ROM_NAME: Generic:EMUI
+  ZIP_NAME: EMUI-HeliosBakerTools-24-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/helios-gsis/HeliosBakery
